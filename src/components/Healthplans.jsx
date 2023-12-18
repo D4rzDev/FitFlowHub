@@ -6,7 +6,7 @@ const Healthplans = () => {
     <div className=' flex flex-col justify-center items-center gap-10 bg-white px-6 pt-10 lg:px-20'>
         <div className=' flex flex-col justify-center items-center gap-4 text-center'>
             <h2 className=' text-xl text-center font-extrabold w-[50%]'>Achieve Your Fitness Goals with <strong className=' text-red-700'>FitFlowHub</strong></h2>
-            <p className=' text-xs px-10'>FitFlowHub is a comprehensive fitness and wellness app that provides personalized workout plans, nutrition guidance, and mental well-being resources. Whether you're a beginner or an experienced fitness enthusiast, our app is designed to help you reach your goals and live a healthier, happier life.</p>
+            <p className=' text-xs px-10'>FitFlowHub is a comprehensive fitness and wellness app that provides personalized workout plans, nutrition guidance, and mental well-being resources. Whether youre a beginner or an experienced fitness enthusiast, our app is designed to help you reach your goals and live a healthier, happier life.</p>
         </div>
         <div className=' flex flex-col justify-center items-center gap-10 md:flex-row'>
             <div className=' flex flex-col justify-center items-center gap-4'>
@@ -29,7 +29,7 @@ const Healthplans = () => {
                 <Image src="/img/plan3.jpg" alt="" width={500} height={500} />
                 <div className='flex flex-col justify-center items-center gap-2'>
                     <h2 className=' text-sm font-bold w-[70%] text-center'>Take Care of Your Mental Well-Being</h2>
-                    <p className=' text-xs text-center'>We believe that mental well-being is just as important as physical fitness. FitFlowHub offers resources and practices to support your mental health journey.</p>
+                    <p className=' text-xs text-center'>We believe that mental well being is just as important as physical fitness. FitFlowHub offers resources and practices to support your mental health journey.</p>
                 </div>
             </div>
 
