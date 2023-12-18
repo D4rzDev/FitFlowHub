@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
                 <a className=' border-2 border-white rounded-full px-6 py-2' href="">Sign Up</a>
             </div>
         </div>
-        <img className=' object-cover w-full h-screen z-[-10]' src="/img/hero1.jpg" alt="" srcSet="" width={700} height={500} />
+        <Image className=' object-cover w-full h-screen z-[-10]' src="/img/hero1.jpg" alt="" srcSet="" width={700} height={500} />
     </div>
   )
 }
